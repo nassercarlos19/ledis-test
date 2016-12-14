@@ -31,7 +31,7 @@
           <boolProp name="CookieManager.clearEachIteration">false</boolProp>
           <stringProp name="CookieManager.policy">rfc2109</stringProp>
         </CookieManager>
-        <hashTree/>
+        **<hashTree/>**
         <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
           <collectionProp name="Arguments.arguments">
             <elementProp name="VIEWSTATE" elementType="Argument">
@@ -46,7 +46,7 @@
             </elementProp>
           </collectionProp>
         </Arguments>
-        <hashTree/>
+        **<hashTree/>**
         <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
           <collectionProp name="HeaderManager.headers">
             <elementProp name="" elementType="Header">
@@ -63,7 +63,7 @@
             </elementProp>
           </collectionProp>
         </HeaderManager>
-        <hashTree/>
+        **<hashTree/>**
         <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Step 1" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
@@ -89,7 +89,7 @@
             <boolProp name="HTTPSampler.monitor">false</boolProp>
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           </HTTPSamplerProxy>
-          <hashTree/>
+          **<hashTree/>**
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="http://104.154.101.157/usuarios/loginAction" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
               <collectionProp name="Arguments.arguments">
@@ -125,7 +125,7 @@
             <boolProp name="HTTPSampler.monitor">false</boolProp>
             <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
           </HTTPSamplerProxy>
-          <hashTree/>
+          **<hashTree/>**
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Aserción de Respuesta" enabled="true">
             <collectionProp name="Asserion.test_strings">
               <stringProp name="49586">200</stringProp>
@@ -134,11 +134,11 @@
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">16</intProp>
           </ResponseAssertion>
-          <hashTree/>
+          **<hashTree/>**
           <DurationAssertion guiclass="DurationAssertionGui" testclass="DurationAssertion" testname="Aserción de Duración" enabled="true">
             <stringProp name="DurationAssertion.duration">1000</stringProp>
           </DurationAssertion>
-          <hashTree/>
+          **<hashTree/>**
         </hashTree>
         <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Gráfico de Resultados" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
@@ -173,7 +173,7 @@
           </objProp>
           <stringProp name="filename"></stringProp>
         </ResultCollector>
-        <hashTree/>
+        **<hashTree/>**
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="Ver Árbol de Resultados" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
@@ -207,7 +207,7 @@
           </objProp>
           <stringProp name="filename"></stringProp>
         </ResultCollector>
-        <hashTree/>
+        **<hashTree/>**
         <ResultCollector guiclass="AssertionVisualizer" testclass="ResultCollector" testname="Assertion Results" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
@@ -241,7 +241,7 @@
           </objProp>
           <stringProp name="filename"></stringProp>
         </ResultCollector>
-        <hashTree/>
+        **<hashTree/>**
         <ResultCollector guiclass="TableVisualizer" testclass="ResultCollector" testname="View Results in Table" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
@@ -275,7 +275,7 @@
           </objProp>
           <stringProp name="filename"></stringProp>
         </ResultCollector>
-        <hashTree/>
+        **<hashTree/>**
       </hashTree>
     </hashTree>
   </hashTree>
